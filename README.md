@@ -1,4 +1,4 @@
-# Credit Risk Classification | [View Code](https://github.com/Matsalak-Viktoria/House-Price-Prediction/blob/main/House_Price_Prediction.ipynb)
+# Credit Risk Classification | [View Code](https://github.com/Matsalak-Viktoria/Credit-Risk-Classification/blob/main/Credit_Risk_Classification.ipynb)
 
 ## Overview
 
