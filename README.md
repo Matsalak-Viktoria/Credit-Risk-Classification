@@ -3,7 +3,7 @@
 ## Overview
 This project explores the implementation and evaluation of a machine learning pipeline for credit risk classification using the Credit Risk dataset.
 
-The main goal of the project is not only to build classification models for predicting loan approval decisions, but also to compare the performance of Logistic Regression, Naive Bayes, Decision Tree, and K-Nearest Neighbors (KNN) after applying data preprocessing, outlier detection, and hyperparameter tuning.
+The main goal of the project is not only to build classification models for predicting loan approval decisions, but also to compare the performance of Logistic Regression, Naive Bayes, Decision Tree, and K-Nearest Neighbors (KNN) using a preprocessing pipeline, outlier detection, and hyperparameter tuning.
 
 The project focuses on the following prediction task:
 - Credit Risk Classification - Predicting whether a loan application will be approved or rejected based on applicants' demographic, financial, and credit history information.
