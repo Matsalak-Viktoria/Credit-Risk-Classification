@@ -5,19 +5,19 @@
 ## Objectives
 
 ## Dataset
-**Loan ID** – unique identifier of the loan application in the database, assigned automatically by the system.
-**Gender** – applicant's gender. Possible values: **Male**, **Female**.
-**Married** – applicant's marital status. Possible values: **Yes**, **No**.
-**Dependents** – number of the applicant's dependents. Possible values: **0**, **1**, **2**, **3+**.
-**Education** – applicant's education level. Possible values: **Graduate**, **Not Graduate**.
-**Self_Employed** – indicates whether the applicant is self-employed. Possible values: **Yes**, **No**.
-**ApplicantIncome** – applicant's average monthly income (USD).
-**CoapplicantIncome** – co-applicant's (spouse's) average monthly income (USD).
-**LoanAmount** – requested loan amount (thousand USD).
-**Loan_Amount_Term** – loan term (months).
-**Credit_History** – indicates whether the applicant has a previous credit history. Possible values: **Yes**, **No**.
-**Property_Area** – property location category. Possible values: **Urban**, **Semiurban**, **Rural**.
-**Loan_Status** – final loan application decision. Possible values: **Y** (Approved), **N** (Rejected).
+- **Loan ID**: Unique identifier of the loan application in the database, assigned automatically by the system.
+- **Gender**: Applicant's gender. Possible values: **Male**, **Female**.
+- **Married**: Applicant's marital status. Possible values: **Yes**, **No**.
+- **Dependents**: Number of the applicant's dependents. Possible values: **0**, **1**, **2**, **3+**.
+- **Education**: Applicant's education level. Possible values: **Graduate**, **Not Graduate**.
+- **Self_Employed**: Indicates whether the applicant is self-employed. Possible values: **Yes**, **No**.
+- **ApplicantIncome**: Applicant's average monthly income (USD).
+- **CoapplicantIncome**: Co-applicant's (spouse's) average monthly income (USD).
+- **LoanAmount**: Requested loan amount (thousand USD).
+- **Loan_Amount_Term**: Loan term (months).
+- **Credit_History**: Indicates whether the applicant has a previous credit history. Possible values: **Yes**, **No**.
+- **Property_Area**: Property location category. Possible values: **Urban**, **Semiurban**, **Rural**.
+- **Loan_Status**: Final loan application decision. Possible values: **Y** (Approved), **N** (Rejected).
 
 ## Workflow
 
