@@ -12,9 +12,7 @@ The project focuses on the following prediction task:
 The main objectives of this project are:
 - Perform Exploratory Data Analysis (EDA) to understand feature distributions and relationships with the target variable.
 - Build and evaluate machine learning models for credit risk classification using the Credit Risk dataset.
-- Apply data preprocessing techniques, including missing value imputation, categorical feature encoding, feature scaling, and outlier detection.
-- Compare the performance of Logistic Regression, Naive Bayes, Decision Tree, and K-Nearest Neighbors (KNN) after hyperparameter tuning.
-- Analyze the experimental results using Accuracy, Precision, Recall, F1-score, and Confusion Matrix to identify the most effective classification model.
+- Compare the performance of Logistic Regression, Naive Bayes, Decision Tree, and K-Nearest Neighbors (KNN) to identify the most effective classification model.
 
 ## Dataset
 - **Loan ID**: Unique identifier of the loan application in the database, assigned automatically by the system.
