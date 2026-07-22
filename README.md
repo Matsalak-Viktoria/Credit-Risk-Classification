@@ -30,6 +30,29 @@ The main objectives of this project are:
 - **Loan_Status**: Final loan application decision. Possible values: **Y** (Approved), **N** (Rejected).
 
 ## Workflow
+The project workflow includes:
+1. Exploratory Data Analysis (EDA)  
+2. Logistic Regression Training and Evaluation
+   - Pipeline Setup for Outlier Detection
+   - Data Preprocessing (Imputation, Scaling)
+   - Outlier Detection with Isolation Forest
+   - Train/Test split
+   - Pipeline Setup
+   - Cross-Validation with GridSearchCV
+     - Data Preprocessing (Imputation, Encoding, Scaling)
+     - Logistic Regression Model Training
+     - Best Hyperparameter Selection
+   - Prediction on Unseen Test Data
+   - Model Evaluation
+3. Naive Bayes Training and Evaluation
+   - Same workflow as Logistic Regression
+4. Decision Tree Training and Evaluation
+   - Same workflow as Logistic Regression
+5. KNN Training and Evaluation
+   - Same workflow as Logistic Regression
+6. Result Analysis
+   - Comparison of Model Performance
+   - Selection of the Most Effective Classification Model
 
 ## Technologies
 - Python
