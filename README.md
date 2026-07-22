@@ -45,11 +45,11 @@ The project workflow includes:
    - Prediction on Unseen Test Data
    - Model Evaluation
 3. Naive Bayes Training and Evaluation
-   - Same workflow as Logistic Regression
+   - Same steps as for Logistic Regression
 4. Decision Tree Training and Evaluation
-   - Same workflow as Logistic Regression
+   - Same steps as for Logistic Regression
 5. KNN Training and Evaluation
-   - Same workflow as Logistic Regression
+   - Same steps as for Logistic Regression
 6. Result Analysis
    - Comparison of Model Performance
    - Selection of the Most Effective Classification Model
