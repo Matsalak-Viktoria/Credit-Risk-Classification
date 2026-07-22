@@ -36,7 +36,7 @@ The project workflow includes:
    - Preprocessing Pipeline Setup (for Outlier Detection)
    - Data Preprocessing (Imputation, Scaling)
    - Outlier Detection with Isolation Forest
-   - Train/Test split
+   - Train/Test Split
    - Model Training Pipeline Setup
    - Cross-Validation with GridSearchCV
      - Data Preprocessing (Imputation, Encoding, Scaling)
