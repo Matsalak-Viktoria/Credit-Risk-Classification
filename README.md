@@ -68,7 +68,7 @@ The project workflow includes:
 - Missing Value Imputation (Median)
 - Feature Scaling (StandardScaler)
 
-**For Model Training**:
+**For Model Training**:  
 **Numerical features**:
 - Missing Value Imputation (Median)
 - Feature Scaling (StandardScaler)
