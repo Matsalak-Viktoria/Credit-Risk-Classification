@@ -154,4 +154,6 @@ Evaluation on the test set:
    macro avg       0.85      0.75      0.78       117
 weighted avg       0.84      0.84      0.83       117
 ```
-![Plot](Naive_Bayes_Confusion_Matrix.png)
+
+![Plot](Decision_Tree_Confusion_Matrix.png)
+
