@@ -171,4 +171,4 @@ Evaluation on the test set:
 weighted avg       0.81      0.81      0.80       117
 ```
 
-![Plot](Decision_Tree_Confusion_Matrix.png)
+![Plot](KNN_Confusion_Matrix.png)
