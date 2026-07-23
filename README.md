@@ -139,5 +139,5 @@ Evaluation on the test set:
 weighted avg       0.84      0.84      0.83       117
 ```
 
-![Plot](Logistic_Regression_Confusion_Matrix.png)
+![Plot](Naive_Bayes_Confusion_Matrix.png)
 
