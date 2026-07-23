@@ -172,3 +172,14 @@ weighted avg       0.81      0.81      0.80       117
 ```
 
 ![Plot](KNN_Confusion_Matrix.png)
+
+### Model performance comparison:
+Based on the obtained results, it can be concluded that all evaluated algorithms achieved a similar level of accuracy (0.81 and 0.84). However, they differ in their decision-making behavior.
+
+**Logistic Regression** demonstrated a tendency to predict the positive class ("Approved") more frequently, as indicated by the considerably higher Recall for the "Approved" class (0.95) compared to the "Rejected" class (0.57). At the same time, similar Precision values for both classes (0.83 and 0.84) indicate consistent prediction quality and the absence of significant bias in prediction accuracy.
+
+**Naive Bayes** and **Decision Tree** produced identical results across all evaluation metrics. This can be explained by the shallow tree structure (max_depth = 2), whose decision-making logic closely resembles the probabilistic approach of Naive Bayes. Both models primarily rely on a single dominant feature, Credit_History, resulting in similar behavior and predictive performance. They successfully identify the positive class ("Approved"), while showing lower performance in detecting rejected applications, which is likely due to the class imbalance in the dataset.
+
+The **K-Nearest Neighbors (KNN)** algorithm achieved slightly lower accuracy (0.81), which is likely due to the combined effect of class imbalance and the selected number of neighbors, making the model more sensitive to noise in the data. Nevertheless, the model maintained an acceptable level of accuracy. Similar to Logistic Regression, KNN also exhibited a tendency to predict the positive class ("Approved") more frequently, as evidenced by the substantially higher Recall for the "Approved" class (0.91) compared to the "Rejected" class (0.57).
+
+Overall, Logistic Regression demonstrated the best balance between Precision and Recall among all evaluated models. It maintained high Precision for both classes while providing satisfactory detection of the minority "Rejected" class, indicating stable and reliable performance even in the presence of class imbalance.
