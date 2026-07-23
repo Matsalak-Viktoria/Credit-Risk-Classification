@@ -65,17 +65,17 @@ The project workflow includes:
 ## Methods
 ### Data Preprocessing
 **For Outlier Detection**:
-- Missing Value Imputation (Median)
-- Feature Scaling (StandardScaler)
+- Missing value imputation (Median)
+- Feature scaling (StandardScaler)
 
 **For Model Training**:
 
 **Numerical features**:
-- Missing Value Imputation (Median)
-- Feature Scaling (StandardScaler)
+- Missing value imputation (Median)
+- Feature scaling (StandardScaler)
 
 **Categorical features**:
-- Missing Value Imputation (Most Frequent)
+- Missing value imputation (Most Frequent)
 - One-Hot Encoding
 
 ### Outlier Detection
@@ -88,13 +88,13 @@ The project workflow includes:
 - K-Nearest Neighbors (KNN)
 
 **Hyperparameters optimized**:
-- Logistic Regression: Regularization Strength (C)
-- Decision Tree: Maximum Tree Depth (max_depth)
-- K-Nearest Neighbors (KNN): Number of Neighbors (n_neighbors)
+- Logistic Regression: Regularization strength (C)
+- Decision Tree: Maximum tree depth (max_depth)
+- K-Nearest Neighbors (KNN): Number of neighbors (n_neighbors)
 
 ### Validation Strategy
 **Train/Test Split + GridSearchCV**:
-- Train/Test Split for Final Model Evaluation
+- Train/Test split for final model evaluation
 - GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
 
 ### Evaluation Metrics
@@ -102,7 +102,6 @@ The project workflow includes:
 - Precision
 - Recall
 - F1-score
-- Confusion Matrix
 
 ## Results
 Evaluation on the test set:
