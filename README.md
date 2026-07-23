@@ -123,4 +123,4 @@ Evaluation on the test set:
 weighted avg       0.84      0.84      0.83       117
 ```
 
-![Plot](Pred_vs_True_Before.png)
+![Plot](Logistic_Regression_Confusion_Matrix.png)
