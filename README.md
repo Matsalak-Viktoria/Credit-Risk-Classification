@@ -97,11 +97,15 @@ The project workflow includes:
 - Train/Test split for final model evaluation
 - GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
 
-### Evaluation Metrics
+### Model Evaluation
+**Metrics**:
 - Accuracy
 - Precision
 - Recall
 - F1-score
+
+**Visualization**:
+- Confusion Matrix
 
 ## Results
 Evaluation on the test set:
