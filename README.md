@@ -63,6 +63,45 @@ The project workflow includes:
 - Seaborn
 
 ## Methods
+### Data Preprocessing
+**For Outlier Detection**:
+- Missing Value Imputation (Median)
+- Feature Scaling (StandardScaler)
+
+**For Model Training**:
+**Numerical features**:
+- Missing Value Imputation (Median)
+- Feature Scaling (StandardScaler)
+
+**Categorical features**:
+- Missing Value Imputation (Most Frequent)
+- One-Hot Encoding
+
+### Outlier Detection
+- Isolation Forest
+
+### Machine Learning Models
+- Logistic Regression
+- Gaussian Naive Bayes
+- Decision Tree
+- K-Nearest Neighbors (KNN)
+
+**Hyperparameters optimized**:
+- Logistic Regression: Regularization Strength (C)
+- Decision Tree: Maximum Tree Depth (max_depth)
+- K-Nearest Neighbors (KNN): Number of Neighbors (n_neighbors)
+
+### Validation Strategy
+**Train/Test Split + GridSearchCV**:
+- Train/Test Split for Final Model Evaluation
+- GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
+
+### Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
 
 ## Results
 Evaluation on the test set:
