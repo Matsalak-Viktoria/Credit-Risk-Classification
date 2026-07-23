@@ -109,7 +109,7 @@ The project workflow includes:
 
 ## Results
 ### Model Performance Comparison for Each Experiment:
-### Logistic Regression experiment:
+### Logistic Regression Experiment:
 
 ```text
 Evaluation on the test set:
@@ -124,3 +124,20 @@ weighted avg       0.84      0.84      0.83       117
 ```
 
 ![Plot](Logistic_Regression_Confusion_Matrix.png)
+
+### Naive Bayes Experiment:
+
+```text
+Evaluation on the test set:
+              precision    recall  f1-score   support
+
+    Rejected       0.86      0.54      0.67        35
+    Approved       0.83      0.96      0.89        82
+
+    accuracy                           0.84       117
+   macro avg       0.85      0.75      0.78       117
+weighted avg       0.84      0.84      0.83       117
+```
+
+![Plot](Logistic_Regression_Confusion_Matrix.png)
+
