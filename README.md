@@ -108,6 +108,9 @@ The project workflow includes:
 - Confusion Matrix
 
 ## Results
+### Model Performance Comparison for Each Experiment:
+### Logistic Regression experiment:
+
 Evaluation on the test set:
               precision    recall  f1-score   support
 
