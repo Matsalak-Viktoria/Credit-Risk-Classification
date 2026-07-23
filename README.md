@@ -157,3 +157,18 @@ weighted avg       0.84      0.84      0.83       117
 
 ![Plot](Decision_Tree_Confusion_Matrix.png)
 
+### KNN experiment:
+
+```text
+Evaluation on the test set:
+              precision    recall  f1-score   support
+
+    Rejected       0.74      0.57      0.65        35
+    Approved       0.83      0.91      0.87        82
+
+    accuracy                           0.81       117
+   macro avg       0.79      0.74      0.76       117
+weighted avg       0.81      0.81      0.80       117
+```
+
+![Plot](Decision_Tree_Confusion_Matrix.png)
