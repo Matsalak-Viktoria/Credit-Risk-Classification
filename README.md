@@ -108,7 +108,6 @@ The project workflow includes:
 - Confusion Matrix
 
 ## Results
-### Model Performance Comparison for Each Experiment:
 ### Logistic Regression Experiment:
 
 ```text
